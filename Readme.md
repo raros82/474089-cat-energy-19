@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Роман Рацеев](https://up.htmlacademy.ru/adaptive/19/user/474089).
-* Наставник: `Неизвестно`.
+* Наставник: `Без наставника`.
 
 ---
 
