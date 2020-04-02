@@ -1,12 +1,71 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Кэт энерджи</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Кэт энерджи</title>
+</head>
+<body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+<header class="page-header">
+  <a class="page-header__logo" href="#">
+    <img class="page-header__logo-img" src="https://via.placeholder.com/33x38" width="33" height="38"
+         alt="Лого Кэт энерджи - изображение">
+    <img class="page-header__logo-text" src="https://via.placeholder.com/33x38" width="101" height="18"
+         alt="Лого Кэт энерджи - текст">
+  </a>
+  <nav class="main-nav">
+    <button class="main-nav__toggle" type="button">Открыть меню</button>
+    <div class="main-nav__wrapper">
+      <ul class="main-nav__list site-list">
+        <li class="site-list__item site-list__item--active">
+          <a>Главная</a>
+        </li>
+        <li class="site-list__item">
+          <a href="catalog.html">Каталог продукции</a>
+        </li>
+        <li class="site-list__item">
+          <a href="program.html">Подбор программы</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
 
-  </body>
+<main class="page-main">
+
+  <h1 class="visually-hidden">Интернет-магазин фитнес еды для котиков</h1>
+
+  <section class="nutrition">
+    <div class="nutrition__wrapper">
+      <header class="nutrition__header">
+        <h2 class="nutrition__title">Функциональное питание для котов</h2>
+        <p class="nutrition__motivation">Занялся собой? Займись котом!</p>
+        <img class="nutrition__img" src="https://via.placeholder.com/280x271" width="280" height="271"
+             alt="Изображение продукта">
+        <a class="nutrition__program" href="program.html">Подобрать программу</a>
+      </header>
+    </div>
+  </section>
+
+  <section class="nutrition-program">
+    <h2 class="visually-hidden">Варианты программ питания для котов</h2>
+    <ul class="nutrition-program__list">
+      <li class="nutrition-program__item">
+        <h3 class="nutrition-program__title">Похудение</h3>
+        <p class="nutrition-program__description">Ваш кот весит больше собаки и почти утратил способность лазить по
+          деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
+        <a class="nutrition-program__link" href="#">Каталог SLIM</a>
+      </li>
+
+      <li class="nutrition-program__item">
+        <h3 class="nutrition-program__title">Набор массы</h3>
+        <p class="nutrition-program__description">Заработать авторитет среди дворовых котов и даже собак?
+          Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
+        <a class="nutrition-program__link" href="#">Каталог PRO</a>
+      </li>
+    </ul>
+  </section>
+</main>
+
+</body>
 </html>
