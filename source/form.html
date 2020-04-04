@@ -7,10 +7,12 @@
 <body>
 <header class="page-header">
   <a class="page-header__logo-link" href="#">
-    <img class="page-header__logo-img" src="https://via.placeholder.com/33x38" width="33" height="38" alt="Лого Кэт энерджи - изображение">
+    <img class="page-header__logo-img" src="https://via.placeholder.com/33x38" width="33" height="38"
+         alt="Лого Кэт энерджи - изображение">
   </a>
   <a class="page-header__logo-link" href="#">
-    <img class="page-header__logo-text" src="https://via.placeholder.com/33x38" width="101" height="18" alt="Лого Кэт энерджи - текст">
+    <img class="page-header__logo-text" src="https://via.placeholder.com/33x38" width="101" height="18"
+         alt="Лого Кэт энерджи - текст">
   </a>
   <nav class="main-nav">
     <button class="main-nav__toggle" type="button">Открыть меню</button>
@@ -30,7 +32,92 @@
   </nav>
 </header>
 
+<main class="page-main">
+  <h1 class="page-main__title">Подбор программы</h1>
+  <section class="program">
+    <h2 class="visually-hidden">Форма подбора программы питания для котов</h2>
+    <p class="program__description">Заполните анкету и мы подберем программу питания для вашего кота</p>
+    <form class="program__form" action="https://echo.htmlacademy.ru" method="post">
+      <fieldset>
+        <legend class="visually-hidden">Данные о питомце</legend>
+        <p>
+          <label for="cat-name">Имя:<small>*</small></label>
+          <input id="cat-name" type="text" name="name" placeholder="Барсик" required>
+        </p>
+        <p>
+          <label for="cat-weight">Вес (кг):<small>*</small></label>
+          <input id="cat-weight" type="text" name="weight" placeholder="7" required>
+        </p>
+        <p>
+          <label for="cat-age">Возраст (лет):</label>
+          <input id="cat-age" type="text" name="age" placeholder="7">
+        </p>
+        <ul>
+          <li>
+            <input type="radio" name="program" id="cat-program--loosing-weight" value="losing-weight">
+            <label for="cat-program--loosing-weight">Похудение</label>
+          </li>
+          <li>
+            <input type="radio" name="program" id="cat-program--mass-gain" value="mass-gain">
+            <label for="cat-program--mass-gain">Набор массы</label>
+          </li>
+          <li>
+            <input type="radio" name="program" id="cat-program--need-advice" value="need-advice">
+            <label for="cat-program--need-advice">Не знаю (Нужен ваш совет)</label>
+          </li>
+        </ul>
+      </fieldset>
 
+      <fieldset>
+        <legend>Контактные данные (владельца кота)</legend>
+        <p>
+          <label for="email">E-mail:<small>*</small></label>
+          <input id="email" type="email" name="email-address" placeholder="kuklachev@gmail.com" required>
+        </p>
+
+        <p>
+          <label for="phone">Телефон:<small>*</small></label>
+          <input id="phone" type="tel" name="phone-nr" placeholder="8(960)900-60-90" required>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Коментарий</legend>
+        <p>
+          <textarea rows="10" cols="45" name="comment-text" placeholder="Расскажите обо всех повадках кота" ></textarea>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Дополнительно</legend>
+        <ul>
+          <li>
+            <input type="checkbox" name="sweetener" id="ckb-sweetener" checked>
+            <label for="ckb-sweetener">Сахарозаменитель</label>
+          </li>
+
+          <li>
+            <input type="checkbox" name="water" id="ckb-water">
+            <label for="ckb-sweetener">Питьевая вода</label>
+          </li>
+
+          <li>
+            <input type="checkbox" name="milk" id="ckb-milk">
+            <label for="ckb-milk">Молоко</label>
+          </li>
+
+          <li>
+            <input type="checkbox" name="vitamins" id="ckb-vitamins">
+            <label for="ckb-vitamins">Витамины</label>
+          </li>
+        </ul>
+      </fieldset>
+      <button type="submit" class="program__btn button">Отправить заявку</button>
+    </form>
+
+  </section>
+
+</main>
 
 
 <footer class="page-footer">
@@ -52,7 +139,8 @@
 
   <div class="page-footer__logo-wrapper">
     <a class="page-footer__logo-link" href="#">
-      <img class="page-footer__logo-text" src="https://via.placeholder.com/33x38" width="101" height="18" alt="Лого Кэт энерджи - текст">
+      <img class="page-footer__logo-text" src="https://via.placeholder.com/33x38" width="101" height="18"
+           alt="Лого Кэт энерджи - текст">
     </a>
   </div>
 
@@ -74,7 +162,8 @@
 
   <div class="page-footer__copyright copyright">
     <p class="copyright__developer">HTML Academy</p>
-    <img class="copyright__logo" src="https://via.placeholder.com/20x22" width="20" height="22" alt="Логотип HTML Academy">
+    <img class="copyright__logo" src="https://via.placeholder.com/20x22" width="20" height="22"
+         alt="Логотип HTML Academy">
   </div>
 </footer>
 </body>
