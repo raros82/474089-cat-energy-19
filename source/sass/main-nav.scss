@@ -1,5 +1,5 @@
 .main-nav {
-  font-family: "Oswald", Arial, sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-weight: normal;
   color: #111111;
   font-size: 20px;
@@ -10,7 +10,7 @@
 .site-list {
   list-style: none;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
 .site-list__item {
@@ -20,7 +20,7 @@
   border-bottom: 1px solid #e6e6e6;
 }
 
-.site-list__item a{
+.site-list__item a {
   display: block;
   padding: 25px 0;
   cursor: pointer;
