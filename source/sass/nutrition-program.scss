@@ -1,0 +1,41 @@
+.nutrition-program__list {
+  list-style: none;
+  margin: 0;
+  padding: 0 20px;
+  margin-top: 22px;
+}
+
+.nutrition-program__item {
+  background-color: #f2f2f2;
+  padding: 40px 20px 0;
+  margin-bottom: 20px;
+}
+
+.nutrition-program__title {
+  margin: 0;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #111111;
+  margin-left: 72px;
+  margin-bottom: 43px;
+}
+
+.nutrition-program__description {
+  padding-bottom: 23px;
+  margin: 0;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.nutrition-program__link {
+  display: block;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #111111;
+  text-decoration: none;
+  padding: 21px 0 23px;
+}
