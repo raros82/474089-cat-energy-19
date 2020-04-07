@@ -8,11 +8,13 @@
 <body>
 
 <header class="page-header">
-  <a class="page-header__logo-link" href="#">
-    <img class="page-header__logo-img" src="img/logo-mobile.svg" width="191" height="38" alt="Лого Кэт энерджи - изображение">
-  </a>
+  <div class="page-header__wrapper">
+    <a class="page-header__logo-link" href="#">
+      <img class="page-header__logo-img" src="img/logo-mobile.svg" width="191" height="38" alt="Лого Кэт энерджи - изображение">
+    </a>
+  </div>
   <nav class="main-nav">
-    <button class="main-nav__toggle" type="button">Открыть меню</button>
+    <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
     <div class="main-nav__wrapper">
       <ul class="main-nav__list site-list">
         <li class="site-list__item site-list__item--active">
@@ -96,15 +98,15 @@
         в
         день. </p>
       <table class="example__data">
-        <tr>
-          <td class="example__field">Снижение веса</td>
-          <td class="example__value">5 кг</td>
+        <tr class="example__row example__row--stylised">
+          <td class="example__field example__field--styled">Снижение веса</td>
+          <td class="example__value example__value--styled">5 кг</td>
         </tr>
-        <tr>
-          <td class="example__field">Затрачено времени</td>
-          <td class="example__value">60 дней</td>
+        <tr class="example__row example__row--stylised">
+          <td class="example__field example__field--styled">Затрачено времени</td>
+          <td class="example__value example__value--styled">60 дней</td>
         </tr>
-        <tr>
+        <tr class="example__row">
           <td class="example__field">Затраты на питание</td>
           <td class="example__value">15000 руб.</td>
         </tr>
